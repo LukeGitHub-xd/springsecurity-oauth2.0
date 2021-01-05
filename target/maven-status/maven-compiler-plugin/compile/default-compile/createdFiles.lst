@@ -1,0 +1,14 @@
+com\fxj\springsecurityoauth2\util\CacheUtil.class
+com\fxj\springsecurityoauth2\mapper\UserRoleMapper.class
+com\fxj\springsecurityoauth2\pojo\SysUserRole.class
+com\fxj\springsecurityoauth2\service\impl\UserDetailServiceImpl.class
+com\fxj\springsecurityoauth2\SpringsecurityOauth2Application.class
+com\fxj\springsecurityoauth2\pojo\SysUser.class
+com\fxj\springsecurityoauth2\config\SecurityConfig.class
+com\fxj\springsecurityoauth2\mapper\UserMapper.class
+com\fxj\springsecurityoauth2\componet\AutoConfig.class
+com\fxj\springsecurityoauth2\pojo\SysRole.class
+com\fxj\springsecurityoauth2\mapper\RoleMapper.class
+com\fxj\springsecurityoauth2\service\UserService.class
+com\fxj\springsecurityoauth2\componet\JwtTokenEnhancer.class
+com\fxj\springsecurityoauth2\config\Oauth2Config.class
