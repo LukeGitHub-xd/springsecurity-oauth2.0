@@ -9,5 +9,5 @@ import org.springframework.web.HttpRequestMethodNotSupportedException;
 import java.security.Principal;
 
 public interface UserService extends UserDetailsService {
-    SysUser Login(Principal principal,String userName, String Password) throws HttpRequestMethodNotSupportedException;
+//    SysUser Login(Principal principal,String userName, String Password) throws HttpRequestMethodNotSupportedException;
 }

@@ -15,6 +15,7 @@ import org.springframework.security.oauth2.config.annotation.configurers.ClientD
 import org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerConfigurerAdapter;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
+import org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfigurerAdapter;
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerEndpointsConfigurer;
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerSecurityConfigurer;
 import org.springframework.security.oauth2.provider.token.TokenEnhancer;
@@ -33,7 +34,7 @@ import java.util.List;
  */
 @AllArgsConstructor
 @Configuration
-@EnableResourceServer
+//@EnableResourceServer
 @EnableAuthorizationServer
 public class Oauth2Config extends AuthorizationServerConfigurerAdapter {
 
@@ -56,9 +57,10 @@ public class Oauth2Config extends AuthorizationServerConfigurerAdapter {
                 .secret(passwordEncoder.encode("123456"))
                 .scopes("all")
                 .authorizedGrantTypes("password", "refresh_token","authorization_code")
+                .redirectUris("http://localhost:8088/aaa")
+                .resourceIds("resourceId1")
                 .accessTokenValiditySeconds(3600*24)
                 .refreshTokenValiditySeconds(3600*24*7)
-                .redirectUris("www.baidu.com")
                 .and()
                 .withClient("portal-app")
                 .secret(passwordEncoder.encode("123456"))

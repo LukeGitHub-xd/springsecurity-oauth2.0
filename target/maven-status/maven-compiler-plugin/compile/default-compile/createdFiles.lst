@@ -1,7 +1,10 @@
 com\fxj\springsecurityoauth2\util\CacheUtil.class
+com\fxj\springsecurityoauth2\controller\UserController.class
+com\fxj\springsecurityoauth2\config\ResourceConfig.class
 com\fxj\springsecurityoauth2\mapper\UserRoleMapper.class
 com\fxj\springsecurityoauth2\pojo\SysUserRole.class
 com\fxj\springsecurityoauth2\service\impl\UserDetailServiceImpl.class
+com\fxj\springsecurityoauth2\controller\TestController.class
 com\fxj\springsecurityoauth2\SpringsecurityOauth2Application.class
 com\fxj\springsecurityoauth2\pojo\SysUser.class
 com\fxj\springsecurityoauth2\config\SecurityConfig.class

@@ -23,6 +23,7 @@ import javax.annotation.Resource;
 import java.security.Principal;
 import java.util.*;
 
+//@Service("myService")
 @Service
 public class UserDetailServiceImpl implements UserService {
 
@@ -52,11 +53,11 @@ public class UserDetailServiceImpl implements UserService {
         return user;
     }
 
-    @Override
-    public SysUser Login(Principal principal,String userName, String password) throws HttpRequestMethodNotSupportedException {
-        SysUser sysUser = new SysUser();
-        sysUser = userMapper.selectOne(new QueryWrapper<SysUser>().lambda()
-                .eq(SysUser::getUsername,userName).eq(SysUser::getPassword,password));
-        return sysUser;
-    }
+//    @Override
+//    public SysUser Login(Principal principal,String userName, String password) throws HttpRequestMethodNotSupportedException {
+//        SysUser sysUser = new SysUser();
+//        sysUser = userMapper.selectOne(new QueryWrapper<SysUser>().lambda()
+//                .eq(SysUser::getUsername,userName).eq(SysUser::getPassword,password));
+//        return sysUser;
+//    }
 }

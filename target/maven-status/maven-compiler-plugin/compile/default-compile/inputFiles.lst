@@ -1,14 +1,17 @@
 D:\study\springsecurity-oauth2\src\main\java\com\fxj\springsecurityoauth2\config\Oauth2Config.java
 D:\study\springsecurity-oauth2\src\main\java\com\fxj\springsecurityoauth2\mapper\RoleMapper.java
 D:\study\springsecurity-oauth2\src\main\java\com\fxj\springsecurityoauth2\service\UserService.java
+D:\study\springsecurity-oauth2\src\main\java\com\fxj\springsecurityoauth2\controller\UserController.java
 D:\study\springsecurity-oauth2\src\main\java\com\fxj\springsecurityoauth2\componet\JwtTokenEnhancer.java
 D:\study\springsecurity-oauth2\src\main\java\com\fxj\springsecurityoauth2\service\impl\UserDetailServiceImpl.java
 D:\study\springsecurity-oauth2\src\main\java\com\fxj\springsecurityoauth2\SpringsecurityOauth2Application.java
 D:\study\springsecurity-oauth2\src\main\java\com\fxj\springsecurityoauth2\mapper\UserRoleMapper.java
 D:\study\springsecurity-oauth2\src\main\java\com\fxj\springsecurityoauth2\pojo\SysUser.java
 D:\study\springsecurity-oauth2\src\main\java\com\fxj\springsecurityoauth2\config\SecurityConfig.java
+D:\study\springsecurity-oauth2\src\main\java\com\fxj\springsecurityoauth2\controller\TestController.java
 D:\study\springsecurity-oauth2\src\main\java\com\fxj\springsecurityoauth2\mapper\UserMapper.java
 D:\study\springsecurity-oauth2\src\main\java\com\fxj\springsecurityoauth2\componet\AutoConfig.java
+D:\study\springsecurity-oauth2\src\main\java\com\fxj\springsecurityoauth2\config\ResourceConfig.java
 D:\study\springsecurity-oauth2\src\main\java\com\fxj\springsecurityoauth2\pojo\SysUserRole.java
 D:\study\springsecurity-oauth2\src\main\java\com\fxj\springsecurityoauth2\util\CacheUtil.java
 D:\study\springsecurity-oauth2\src\main\java\com\fxj\springsecurityoauth2\pojo\SysRole.java
